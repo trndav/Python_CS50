@@ -29,7 +29,11 @@ email = input("What is your email? ").strip() # can add .lower()
 # if re.search(r"^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+\.edu$", email):
 # if re.search(r"^\w+@\w+\.edu$", email):
 # if re.search(r"^\w+@\w+\.(com|edu|gov|net)$", email): # can add , email.lower()
-if re.search(r"^\w+@\w+\.edu$", email, re.IGNORECASE):
+# if re.search(r"^\w+@\w+\.edu$", email, re.IGNORECASE):
+# if re.search(r"^\w+@(\w+\.)*\w+\.edu$", email, re.IGNORECASE):  # name@has.asd.asd.edu
+# if re.search(r"^(\w|\.)+@(\w+\.)*\w+\.edu$", email, re.IGNORECASE): # asd..asd@asd.asd.edu
+# if re.search(r"^[a-zA-Z0-9_\.]+@(\w+\.)*\w+\.edu$", email, re.IGNORECASE): # asd..asd@asd.asd.edu
+if re.search(r"^\w\.+@(\w+\.)*\w+\.edu$", email, re.IGNORECASE): 
     print("Valid")
 else:
     print("Invalid")
