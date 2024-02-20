@@ -9,7 +9,7 @@ class Person:
     
     @classmethod
     def number_of_people_(cls):
-        return cls.number_of_people
+        return cls.number_of_people # Class defined attribute
     
     @classmethod
     def add_person(cls):
