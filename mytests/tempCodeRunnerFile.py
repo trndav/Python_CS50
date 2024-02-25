@@ -1,11 +1,4 @@
-def mydecorator(function):
-#     def wrapper(*args, **kwargs):
-#         print(" I am decorating function.")
-#         return function(*args, **kwargs)    
-#     return wrapper
-
-# @mydecorator
-# def hi(name):
-#     return f"Hi {name}!"
-
-# print(hi("Bob"))
+class IPerson(metaclass=ABCMeta):
+#     @abstractstaticmethod
+#     def person_method():
+#         '''Interface method'''
