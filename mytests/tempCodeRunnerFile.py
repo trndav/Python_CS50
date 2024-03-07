@@ -1,2 +1,6 @@
-    # def __del__(self):
-    #     print("Object deleted!") # Use like del p1
+cursor.execute("""
+# INSERT INTO persons VALUES
+#             ("Paul", "Smith", 24),
+#             ("Bob", "Trog", 22),
+#             ("Tim", "Gog", 34)            
+# """)
