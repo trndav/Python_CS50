@@ -27,7 +27,7 @@ for person in persons:
 
 # Add new elements to XML file
 newperson = domtree.createElement('person')
-newperson.setAttribute('id', 6)
+newperson.setAttribute('id', '6')
 name = domtree.createElement('name')
 name.appendChild(domtree.createTextNode('Jack Star'))
 

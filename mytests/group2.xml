@@ -1,0 +1,20 @@
+<?xml version="1.0" ?><group>
+    <person id="100">
+        <name>Bob Rock</name>
+        <age>32</age>
+        <weight>67</weight>
+        <height>160</height>
+    </person>
+    <person id="2">
+        <name>Sir Oliver</name>
+        <age>13</age>
+        <weight>78</weight>
+        <height>180</height>
+    </person>
+    <person id="3">
+        <name>New Name</name>
+        <age>31</age>
+        <weight>82</weight>
+        <height>182</height>
+    </person>
+</group>
