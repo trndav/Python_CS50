@@ -3,6 +3,10 @@
 # DEBUG INFO WARNING ERROR CRITICAL
 # See only highest logging message
 
+# Fast global formatting:
+# FORMAT = "%(levelname)s -  %(asctime)s : %(message)s"
+# logging.basicConfig(filename='test.log', level=logging.INFO, format=FORMAT)
+
 import logging
 
 logging.basicConfig(level=logging.INFO) # Set logging level

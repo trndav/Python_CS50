@@ -1,0 +1,30 @@
+{"intents": [
+    {"tag": "greetings",
+    "patterns": ["hello", "hey", "hi", "good day", "Greetings", "whats up?", "how is going?", "hola"],
+    "responses": ["Hi!", "Good day!", "Hola!", "What can I do for you?"]
+},
+    {"tag": "goodbye",
+    "patterns": ["cya", "goodbye", "so long", "im leaving", "im out", "im done?", "cao", "see ya", "have a good day"],
+    "responses": ["Good bye!", "Cya!", "Talk to you later!", "Im glad we talked!"]
+},
+    {"tag": "age",
+    "patterns": ["how old", "how old is your owner", "what is your age", "how old are you", "age?"],
+    "responses": ["43 years old!", "My owner is 43!"]
+},
+    {"tag": "name",
+    "patterns": ["What is your name", "what should i call you", "whats your name", "who are you", "your name?", "tell me your name"],
+    "responses": ["I am AI!", "Call me AI!", "Im Artificial Intelligence!", "Im my owners AI.", "Im just AI."]
+},
+    {"tag": "shop",
+    "patterns": ["Id like to buy something", "What are your products?", "What do you sell?", "What do you recommend?", "What do you offer?"],
+    "responses": ["I can sell you best of the bestproduct there is. Goldfish! Just rub it and make a wish."]
+},
+    {"tag": "hours",
+    "patterns": ["When do you work?", "When are you open?", "What is your working hours?"],
+    "responses": ["I am available 24/7/365 almost every second."]
+},
+    {"tag": "stocks",
+    "patterns": ["What stocks do I own?", "How are my shares?", "What companies I invested in?"],
+    "responses": ["You own followin shares: AAPL, ABBV, FB, NVDA, and some Dogecoins."]
+}
+]}

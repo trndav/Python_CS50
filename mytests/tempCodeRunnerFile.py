@@ -1,2 +1,3 @@
-logging.info("You have 20 emails in inbox!")
-# logging.critical("All components fail!")
+
+train_x = list(training[:, 0])
+train_y = list(training[:, 1])
