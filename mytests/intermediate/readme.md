@@ -1,4 +1,4 @@
 ## Intermediate Python Programming Course
 ### https://www.youtube.com/watch?v=HGOBQPFzWKo
 
-https://youtu.be/HGOBQPFzWKo?feature=shared&t=991
+https://www.youtube.com/watch?v=HGOBQPFzWKo&t=1784s 
