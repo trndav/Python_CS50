@@ -1,4 +1,2 @@
-try: 
-#     a = 5 / 0
-# except Exception as e:
-#     print(f"Error happened: {e}")
+mylist = [i for i in range(10) if i % 2 == 0]
+print(mylist)
