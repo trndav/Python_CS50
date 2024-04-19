@@ -52,7 +52,7 @@ setg = {1, 2, 3, 10, 11, 12}
 diff2 = setf.symmetric_difference(setg) # Copy unique elements from both sets that dont repeat
 print(diff2)
 setf.update(setg) # Copy all unique elements from b to a
-print(setf)
+print(f"Setf is: {setf}")
 
 print("*"*9)
 
