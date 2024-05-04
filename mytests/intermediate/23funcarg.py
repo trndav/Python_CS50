@@ -46,9 +46,9 @@ mylist = (0, 1, 3)
 foo6(*mylist) #unpack
 
 def foo7(a, b, c):
-    print(a, b, c)
-mydict = {'a':3, 'b':4, 'c':6}
-foo7(**mydict) #unpack
+    print("foo7 unpack", a, b, c)
+mydict2 = {'a':3, 'b':4, 'c':6}
+foo7(**mydict2) #unpack
 
 def foo8():
     x = number
